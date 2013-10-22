@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<validation>
+	<field name="user">
+		<required>Informe o campo Usuário</required>
+	</field>	
+	
+	<field name="password">
+		<required>Informe o campo Senha</required>
+	</field>	
+</validation>

@@ -1,0 +1,25 @@
+Ambiente de desenvolvimento
+-------------------------------------------------------
+
+Apache 2.0.63
+PHP 5.2.4
+MYSQL 5
+
+
+
+Instalação
+-------------------------------------------------------
+
+1 - Copie os arquivos para seu servidor
+
+2 - Crie um banco de dados e importe o arquivo "banco.sql"
+
+3 - Configure o arquivo "util/pdo.php" com os dados do banco de dados 
+(nome do banco, usuário e senha)
+
+4 - Execute pelo navegador o arquivo "install.php"
+Este arquivo criará o primeiro usuário:
+Usuário: administrador
+Senha: 123456
+
+5 - Pronto para utilização

@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>{system_name}</title>
+<link href="css/client.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+	
+	<div id="client_border">
+		
+		<div id="client_top">
+			<img src="css/brtalk_logo.jpg" alt="brTalk" />
+		</div>
+		
+		<!-- begin_block_form -->
+		<div class="login_form">
+			<div class="error">{error}</div>
+			<form name="login" method="post" action="index.php">
+				
+				<label>Nome:</label>
+				<input type="text" name="name" maxlength="60" />
+				
+				<label>E-mail:</label>
+				<input type="text" name="email" maxlength="60" />
+				
+				<input type="submit" name="login" value="Iniciar atendimento" />
+				
+			</form>
+		</div>
+		<!-- end_block_form -->
+		
+		<!-- begin_block_info -->
+		<div id="wait">
+			<div id="wait_info">
+				<p>O atendimento está Offline neste momento</p>
+				<a href="javascript:window.close()">Fechar janela</a>
+			</div>
+		</div>
+		<!-- end_block_info -->
+		
+		<div id="client_bottom">
+			<strong>{system_name} {system_version}</strong> 2010 Hédi Carlos Minin	
+		</div>
+	</div>
+
+</body>
+</html>

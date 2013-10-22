@@ -1,0 +1,97 @@
+html, body{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	height: 100%;
+	width: 100%;
+}
+.header{
+	position: absolute;
+	top: 20px;
+	left: 0;
+	width: 40%;
+	padding: 5%;
+	text-align: right;
+	border-right: 1px solid #999;
+	height: 150px;
+}
+.form{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	width: 40%;
+	padding: 5%;
+}
+.footer{
+	position: absolute;
+	border-top: 1px dotted #999;
+	padding-top: 5px;
+	top: 330px;
+	left: 10%;
+	right: 10%;
+	font-size: 11px;
+	color: #666;
+	text-align: right;
+}
+
+/* Erros */
+.error{
+	position: absolute;
+	top: 5%;
+	left: 10%;
+}
+.error ul{
+	margin: 0;
+	padding: 0;
+	color: #900;
+	list-style: none;
+	font-weight: bold;
+}
+.error ul li{
+	margin: 0;
+	padding: 0;
+}
+
+/* Form */
+form{
+	padding: 0;
+	margin: 0;
+}
+form label{
+	display: block;
+	margin-bottom: 2px;
+	font-weight: bold;
+}
+form input[type=text], form input[type=password]{
+	display: block;
+	padding: 5px;
+	border: 1px solid #999;
+	width: 180px;
+	margin-bottom: 10px;
+}
+form input[type=text]:focus, form input[type=password]:focus{
+    border: 1px solid #CC6600;
+    background-color: #FFFFD5;
+	outline: none;
+}
+form input[type=submit]{
+	display: block;
+	padding: 7px 12px 7px 12px;
+	border: 1px solid #999;
+	outline: #DDD solid thin;
+	font-weight: bold;
+	margin-top: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	cursor: pointer;
+	background-color: #FFF;
+}
+form input[type=submit]:hover{
+	border: 1px solid #666;
+	outline: #CCC solid thin;
+	background-color: #EEE;
+}

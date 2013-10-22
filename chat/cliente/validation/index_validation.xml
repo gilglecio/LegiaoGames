@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<validation>
+	<field name="name">
+		<required>Informe o campo Nome</required>
+	</field>	
+	
+	<field name="email">
+		<required>Informe o campo E-mail</required>
+		<email>E-mail inválido</email>
+	</field>	
+</validation>

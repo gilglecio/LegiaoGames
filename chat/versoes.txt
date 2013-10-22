@@ -1,0 +1,22 @@
+v 1.0.2
+-------------------------------------------------------
+adicionado opção de mostrar/ocultar conteúdo da janela ao arrastar
+fixado compatibilidade com PHP 5.3.0, removendo o uso da função ereg();
+
+
+v 1.0.1
+-------------------------------------------------------
+fixado compatibilidade com PHP 5.3.0, removendo o uso da função session_is_registered();
+fixado problema de posicionamendo das janelas;
+fixado problema de login com email contendo os caracteres . e -;
+adicionado restrição de login do cliente, não permitindo seu login quando não há atendende online;
+adicionado restrição de login do atendente, não permitindo mais de um login com o mesmo usuário;
+removido opções de enviar email e encerrar atendimento quando o atendimento foi iniciado por outro atendente;
+adicionado campo IP na tabela de clientes;
+adicionado mensagens pré-definidas;
+
+
+v 1.0.0
+-------------------------------------------------------
+brTalk lançado
+

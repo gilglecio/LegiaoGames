@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>{system_name}</title>
+<link href="css/client.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+<script type="text/javascript" src="../js/jquery_min.js"></script>
+<script type="text/javascript" src="../js/util.js"></script>
+<script type="text/javascript" src="js/core.js"></script>
+<script type="text/javascript">
+
+var _client = {
+	id : {client_id},
+	status : {client_status},
+	name : '{client_name}'
+}
+
+var _user = {
+	id : {client_user_id},
+	name : '{client_user_name}'
+}
+
+</script>
+</head>
+
+<body>
+
+	<div id="client_border">
+	
+		<div id="wait">
+			<div id="wait_info">Aguarde...</div>
+		</div>
+		
+		<div id="client_top">
+			<img src="css/brtalk_logo.jpg" alt="brTalk" />
+		</div>
+		
+		<div id="talk_info">
+			Atendente: <span id="user_name">{client_user_name}</span>
+		</div>
+		
+		<div id="talk" title="Mensagens enviadas e recebidas"></div>
+		
+		<div id="talk_options">
+			<a href="end_call.php" title="Encerrar atendimento">Encerrar atendimento</a>
+			<span id="typing"></span>
+		</div>
+		
+		<div id="talk_client">
+			<strong>{client_name}</strong>
+			<span>{client_email}</span>
+		</div>
+		
+		<div id="talk_input">
+			<textarea id="input" disabled="disabled" title="Digite sua mensagem e pressione enter para enviar"></textarea>
+		</div>
+		
+		<div id="client_bottom">
+			<strong>{system_name} {system_version}</strong> 2010 Hédi Carlos Minin	
+		</div>
+		
+	</div>
+
+</body>
+</html>

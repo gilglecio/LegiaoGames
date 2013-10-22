@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>brTalk</title>
+<script type="text/javascript" src="js/jquery_min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#atendimento').click(function(){
+	
+		var width = 400;
+		var height = 540;
+		var left = (screen.width - width) / 2;
+		var top = ((screen.height - height) / 2) - 30;
+	
+		var w = window.open('cliente/index.php', 'at',  'height=' +height+ ', width=' +width+ ',status=no, toolbar=no, resizable=no, scrollbars=no, minimizable=no, left=' +left+ ', top=' +top);
+
+	});
+});
+</script>
+</head>
+
+<body>
+	<a href="atendente/">Atendente</a><br />
+	<a href="javascript:void(0)" id="atendimento">Cliente</a>
+</body>
+</html>
